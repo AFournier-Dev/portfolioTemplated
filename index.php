@@ -205,11 +205,12 @@
 						<ul class="contact-icons color1">
 							<li class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/afournier-dev/">Mon LinkedIn</a></li>
 							<li class="icon brands fa-twitter"><a href="https://twitter.com/Alexand76214543">Mon Twitter</a></li>
-							<li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>
+							
 							<!--
 											<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled</a></li>
 											<li class="icon brands fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
 											<li class="icon brands fa-instagram"><a href="#">@untitled-tld</a></li>
+											<li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>
 							-->
 							
 						</ul>
