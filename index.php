@@ -69,12 +69,14 @@
 				</div>
 				<div class="inner">
 					<ul class="grid-icons three connected">
-						<li><span class="icon fa-gem"><span class="label">Lorem</span></span><li><span class="icon fa-gem"><span class="label">Lorem</span></span></li>
+						<li><span class="icon fa-gem"><span class="label">Lorem</span></span>
+						<li><span class="icon fa-gem"><span class="label">Lorem</span></span></li>
 						<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum</span></span></li>
 						<li><span class="icon solid fa-cog"><span class="label">Dolor</span></span></li>
 						<li><span class="icon solid fa-paper-plane"><span class="label">Sit</span></span></li>
 						<li><span class="icon solid fa-chart-bar"><span class="label">Amet</span></span></li>
-						<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li></li>
+						<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
+						</li>
 						<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum</span></span></li>
 						<li><span class="icon solid fa-cog"><span class="label">Dolor</span></span></li>
 						<li><span class="icon solid fa-paper-plane"><span class="label">Sit</span></span></li>
@@ -158,36 +160,58 @@
 					<p>Contacter moi</p>
 				</div>
 				<div class="inner columns divided">
-					<div class="span-3-25">
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field half">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" required/>
+					<form method="POST">
+						<div class="span-3-25">
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" placeholder="Merci de m'indiquer votre nom" required />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" placeholder="Merci de m'indiquer votre mail" required />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4" placeholder="Votre message" required></textarea>
+									</div>
 								</div>
-								<div class="field half">
-									<label for="email">Email</label>
-									<input type="email" name="email" id="email" required/>
-								</div>
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="4" required></textarea>
-								</div>
-							</div>
-							<ul class="actions">
-								<li><input type="submit" value="Contacter moi" class="button primary" /></li>
-							</ul>
-						</form>
-					</div>
+								<ul class="actions">
+									<li><input type="submit" value="Envoyer" class="button primary" /></li>
+								</ul>
+							</form>
+
+							<?php
+							if (!empty($_POST)) {
+								$email = htmlspecialchars($_POST['mail']);
+								require_once "emailtemplate.php";
+
+
+								// Pour envoyer un mail HTML, l'en-tête Content-type doit être défini
+
+								$headers[] = 'MIME-Version: 1.0';
+								$headers[] = 'Content-type: text/html; charset=utf-8';
+
+								mail($email, 'Happy new year', $message,  implode("\r\n", $headers));
+
+								// mail($to, $subject, $message, implode("\r\n", $headers));
+							}
+							?>
+						</div>
+					</form>
+
 					<div class="span-1-5">
 						<ul class="contact-icons color1">
-							<li class="icon brands fa-twitter"><a href="#">@untitled-tld</a></li>
+							<li class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/afournier-dev/">Mon LinkedIn</a></li>
+							<li class="icon brands fa-twitter"><a href="https://twitter.com/Alexand76214543">Mon Twitter</a></li>
+							<li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>
 							<!--
 											<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled</a></li>
 											<li class="icon brands fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
 											<li class="icon brands fa-instagram"><a href="#">@untitled-tld</a></li>
 							-->
-							<li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>
+							
 						</ul>
 					</div>
 				</div>
