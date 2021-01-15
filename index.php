@@ -165,7 +165,7 @@
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field half">
-										<label for="name">Name</label>
+										<label for="name">Nom</label>
 										<input type="text" name="name" id="name" placeholder="Merci de m'indiquer votre nom" required />
 									</div>
 									<div class="field half">
@@ -185,15 +185,15 @@
 							<?php
 							if (!empty($_POST)) {
 								$email = htmlspecialchars($_POST['mail']);
-								require_once "emailtemplate.php";
+								//require_once "emailtemplate.php";
 
 
 								// Pour envoyer un mail HTML, l'en-tête Content-type doit être défini
-
+								$headers[] = $_POST['name'].'<'.$_POST['email'].'>';
 								$headers[] = 'MIME-Version: 1.0';
 								$headers[] = 'Content-type: text/html; charset=utf-8';
 
-								mail($email, 'Happy new year', $message,  implode("\r\n", $headers));
+								mail('alexandre.fournier@yahoo.fr', 'Contact portfolio', $message,  implode("\r\n", $headers));
 
 								// mail($to, $subject, $message, implode("\r\n", $headers));
 							}
