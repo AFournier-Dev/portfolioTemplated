@@ -204,7 +204,8 @@
 					<div class="span-1-5">
 						<ul class="contact-icons color1">
 							<li class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/afournier-dev/">Mon LinkedIn</a></li>
-							<li class="icon brands fa-twitter"><a href="https://twitter.com/Alexand76214543">Mon Twitter</a></li>
+							<li class="fab fa-github"><a href="https://twitter.com/Alexand76214543">Mon GitHub</a></li>
+							<li class="icon brands fa-twitter"><a href="https://github.com/AFournier-Dev">Mon Twitter</a></li>
 							
 							<!--
 											<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled</a></li>
