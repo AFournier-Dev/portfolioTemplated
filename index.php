@@ -185,13 +185,14 @@
 							<?php
 							if (!empty($_POST)) {
 								$email = htmlspecialchars($_POST['mail']);
+								$headers[] = $_POST['name'] . '<' . $_POST['email'] . '>';
+								$message= htmlspecialchars(($_POST['message']));
+
 								//require_once "emailtemplate.php";
-
-
 								// Pour envoyer un mail HTML, l'en-tête Content-type doit être défini
-								$headers[] = $_POST['name'].'<'.$_POST['email'].'>';
-								$headers[] = 'MIME-Version: 1.0';
-								$headers[] = 'Content-type: text/html; charset=utf-8';
+
+								//$headers[] = 'MIME-Version: 1.0';
+								//$headers[] = 'Content-type: text/html; charset=utf-8';
 
 								mail('alexandre.fournier@yahoo.fr', 'Contact portfolio', $message,  implode("\r\n", $headers));
 
@@ -206,14 +207,14 @@
 							<li class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/afournier-dev/">Mon LinkedIn</a></li>
 							<li class="fab fa-github"><a href="https://twitter.com/Alexand76214543">Mon GitHub</a></li>
 							<li class="icon brands fa-twitter"><a href="https://github.com/AFournier-Dev">Mon Twitter</a></li>
-							
+
 							<!--
 											<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled</a></li>
 											<li class="icon brands fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
 											<li class="icon brands fa-instagram"><a href="#">@untitled-tld</a></li>
 											<li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>
 							-->
-							
+
 						</ul>
 					</div>
 				</div>
