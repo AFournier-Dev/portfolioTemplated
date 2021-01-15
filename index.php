@@ -154,10 +154,9 @@
 			<!-- Panel -->
 			<section class="panel color4-alt">
 				<div class="intro color4">
-					<h2 class="major">Contact</h2>
-					<p></p>
-					<p>Une question, une demande ?</p>
-					<p>Contacter moi</p>
+					<h2 class="major">Contact</h2>				
+					<h3>Une question <br> une demande ?</h3> <br>
+					<p> Vous pouvez m'envoyer un mail directement<br><br> Ou sur mes réseaux sociaux <br><br>À vous de choisir</p>
 				</div>
 				<div class="inner columns divided">
 					<form method="POST">
@@ -187,15 +186,11 @@
 								$email = htmlspecialchars($_POST['mail']);
 								$headers[] = $_POST['name'] . '<' . $_POST['email'] . '>';
 								$message= htmlspecialchars(($_POST['message']));
-
 								//require_once "emailtemplate.php";
 								// Pour envoyer un mail HTML, l'en-tête Content-type doit être défini
-
 								//$headers[] = 'MIME-Version: 1.0';
 								//$headers[] = 'Content-type: text/html; charset=utf-8';
-
 								mail('alexandre.fournier@yahoo.fr', 'Contact portfolio', $message,  implode("\r\n", $headers));
-
 								// mail($to, $subject, $message, implode("\r\n", $headers));
 							}
 							?>
@@ -207,14 +202,12 @@
 							<li class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/afournier-dev/">Mon LinkedIn</a></li>
 							<li class="fab fa-github"><a href="https://twitter.com/Alexand76214543">Mon GitHub</a></li>
 							<li class="icon brands fa-twitter"><a href="https://github.com/AFournier-Dev">Mon Twitter</a></li>
-
 							<!--
 											<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled</a></li>
 											<li class="icon brands fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
 											<li class="icon brands fa-instagram"><a href="#">@untitled-tld</a></li>
 											<li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>
 							-->
-
 						</ul>
 					</div>
 				</div>
