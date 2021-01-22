@@ -65,7 +65,7 @@
 			<section class="panel color1">
 				<div class="intro joined">
 					<h2 class="major">Projets</h2>
-					<p></p>
+				
 				</div>
 				<div class="inner">
 					<ul class="grid-icons three connected">
@@ -75,13 +75,7 @@
 						<li><span class="icon solid fa-cog"><span class="label">Dolor</span></span></li>
 						<li><span class="icon solid fa-paper-plane"><span class="label">Sit</span></span></li>
 						<li><span class="icon solid fa-chart-bar"><span class="label">Amet</span></span></li>
-						<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
-						</li>
-						<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum</span></span></li>
-						<li><span class="icon solid fa-cog"><span class="label">Dolor</span></span></li>
-						<li><span class="icon solid fa-paper-plane"><span class="label">Sit</span></span></li>
-						<li><span class="icon solid fa-chart-bar"><span class="label">Amet</span></span></li>
-						<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
+						
 					</ul>
 				</div>
 			</section>
@@ -89,21 +83,9 @@
 
 			</section>
 
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- 
+
+			<!-- Panel (Spotlight) 
+			 
 							<section class="panel spotlight large left">
 								<div class="content span-5">
 									<h2 class="major">Magna amet tempus</h2>
@@ -140,15 +122,9 @@
 
 
 
-						-->
+	-->				
 
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
-			<!-- Panel (Spotlight) -->
+			
 
 
 			<!-- Panel -->
@@ -203,17 +179,17 @@
 							<li class="fab fa-github"><a href="https://twitter.com/Alexand76214543">Mon GitHub</a></li>
 							<li class="icon brands fa-twitter"><a href="https://github.com/AFournier-Dev">Mon Twitter</a></li>
 							<!--
-											<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled</a></li>
-											<li class="icon brands fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
-											<li class="icon brands fa-instagram"><a href="#">@untitled-tld</a></li>
-											<li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>
+							<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled</a></li>
+							<li class="icon brands fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
+							<li class="icon brands fa-instagram"><a href="#">@untitled-tld</a></li>
+							<li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>
 							-->
 						</ul>
 					</div>
 				</div>
 			</section>
 
-			<!-- Panel 
+		<!--
 			<section class="panel color2-alt">
 				<div class="intro color2">
 					<h2 class="major">Elements</h2>
@@ -492,8 +468,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				</div>
 			</section>
 
-			-->
+	
 		</div>
+		-->
 	</div>
 
 	<!-- Scripts -->
