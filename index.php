@@ -7,6 +7,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="images/mesquare.png" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -61,7 +62,6 @@
 				</div>
 			</section>
 
-			<!-- Panel
 			<section class="panel color1">
 				<div class="intro joined">
 					<h2 class="major">Projets</h2>
@@ -86,7 +86,7 @@
 				</div>
 			</section>
 			<section>
- -->
+
 			</section>
 
 			<!-- Panel (Spotlight) -->
