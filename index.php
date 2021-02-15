@@ -69,8 +69,11 @@
 				</div>
 				<div class="inner">
 					<a href="https://alexandref544.promo-45.codeur.online/cartedevoeux/"><span class="fas fa-envelope fa-2x"></a>
+					<p>Un projet pour les voeux de 2021. Au programme SVG, animation SVG, responsive ...</p>
 					<a href="https://alexandref544.promo-45.codeur.online/multiplication/"><span class="fas fa-calculator fa-2x"></a>
+					<p>Besoin de réviser vos tables de multiplication ? Votre enfant en a marre de réciter ? Plusieurs méthodes pour réviser</p>
 					<a href="https://alexandref544.promo-45.codeur.online/Bomberman/"><span class="fas fa-gamepad fa-2x"></a>
+					<p>Un jeux à la "bomberman" en mode Halloween. Une citrouille contre des chauffes-souris. Attention les bonbons sont explosif.</p>
 				</div>
 			</section>
 			<section>
