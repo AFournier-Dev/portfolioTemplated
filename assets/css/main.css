@@ -72,6 +72,8 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+
 /* Page */
 
 	@-moz-keyframes load-spinner {
@@ -538,6 +540,11 @@ input, select, textarea {
 			font-size: 11pt;
 		}
 
+	}
+
+
+	.inner{
+		size: 100px;
 	}
 
 /* Form */
@@ -1915,6 +1922,7 @@ input, select, textarea {
 				-ms-transition: opacity 0.25s ease, -ms-transform 0.25s ease;
 				transition: opacity 0.25s ease, transform 0.25s ease;
 				opacity: 0;
+			
 			}
 
 				.gallery .modal .inner img {

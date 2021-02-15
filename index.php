@@ -65,24 +65,12 @@
 			<section class="panel color1">
 				<div class="intro joined">
 					<h2 class="major">Projets</h2>
-					<p></p>
+					<p>Ici vous trouverez des liens vers mes projets</p>
 				</div>
 				<div class="inner">
-					<ul class="grid-icons three connected">
-						<li><span class="icon fa-gem"><span class="label">Lorem</span></span>
-						<li><span class="icon fa-gem"><span class="label">Lorem</span></span></li>
-						<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum</span></span></li>
-						<li><span class="icon solid fa-cog"><span class="label">Dolor</span></span></li>
-						<li><span class="icon solid fa-paper-plane"><span class="label">Sit</span></span></li>
-						<li><span class="icon solid fa-chart-bar"><span class="label">Amet</span></span></li>
-						<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
-						</li>
-						<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum</span></span></li>
-						<li><span class="icon solid fa-cog"><span class="label">Dolor</span></span></li>
-						<li><span class="icon solid fa-paper-plane"><span class="label">Sit</span></span></li>
-						<li><span class="icon solid fa-chart-bar"><span class="label">Amet</span></span></li>
-						<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
-					</ul>
+					<a href="https://alexandref544.promo-45.codeur.online/cartedevoeux/"><span class="fas fa-envelope fa-2x"></a>
+					<a href="https://alexandref544.promo-45.codeur.online/multiplication/"><span class="fas fa-calculator fa-2x"></a>
+					<a href="https://alexandref544.promo-45.codeur.online/Bomberman/"><span class="fas fa-gamepad fa-2x"></a>
 				</div>
 			</section>
 			<section>
@@ -154,7 +142,7 @@
 			<!-- Panel -->
 			<section class="panel color4-alt">
 				<div class="intro color4">
-					<h2 class="major">Contact</h2>				
+					<h2 class="major">Contact</h2>
 					<h3>Une question <br> une demande ?</h3> <br>
 					<p> Vous pouvez m'envoyer un mail directement<br><br> Ou sur mes réseaux sociaux <br><br>À vous de choisir</p>
 				</div>
@@ -185,7 +173,7 @@
 							if (!empty($_POST)) {
 								$email = htmlspecialchars($_POST['mail']);
 								$headers[] = $_POST['name'] . '<' . $_POST['email'] . '>';
-								$message= htmlspecialchars(($_POST['message']));
+								$message = htmlspecialchars(($_POST['message']));
 								//require_once "emailtemplate.php";
 								// Pour envoyer un mail HTML, l'en-tête Content-type doit être défini
 								//$headers[] = 'MIME-Version: 1.0';
