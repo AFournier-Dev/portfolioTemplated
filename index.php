@@ -61,7 +61,7 @@
 				</div>
 			</section>
 
-			<!-- Panel -->
+			<!-- Panel
 			<section class="panel color1">
 				<div class="intro joined">
 					<h2 class="major">Projets</h2>
@@ -86,7 +86,7 @@
 				</div>
 			</section>
 			<section>
-
+ -->
 			</section>
 
 			<!-- Panel (Spotlight) -->
