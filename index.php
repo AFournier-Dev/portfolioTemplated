@@ -88,8 +88,8 @@
 					<p>Besoin de réviser vos tables de multiplication ? Votre enfant en a marre de réciter ? Plusieurs méthodes pour réviser</p>
 					<a href="https://alexandref544.promo-45.codeur.online/Bomberman/"><span class="fas fa-gamepad fa-2x"></a>
 					<p>Un jeux à la "bomberman" en mode Halloween. Une citrouille contre des chauffes-souris. Attention les bonbons sont explosif.</p>
-					<a href="https://alexandref544.promo-45.codeur.online/Shopify/"><span class="fas fa-shopping-cart fa-2x"></a>
-					<p>Pour shopify : Snippet, template, themes ...</p>
+					<a href="images/snippetShopify.jpg" target="_blank"><span class="fas fa-shopping-cart fa-2x"></a>
+					<p>Pour shopify : Snippet, template, themes ... ici un exemple de snippet fonctionnant dans shopify</p>
 					<i></i>
 				</div>
 			</section>
@@ -143,7 +143,7 @@
 						<ul class="contact-icons color1">
 							<li class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/afournier-dev/">Mon LinkedIn</a></li>
 							<li class="fab fa-github"><a href="https://github.com/AFournier-Dev">Mon GitHub</a></li>
-							<li class="fab fa-twitter-square"><a href="">Mon Twitter</a></li>
+							<li class="fab fa-twitter-square"><a href="https://twitter.com/Alexand76214543">Mon Twitter</a></li>
 							<li class="icon far fa-file"><a href="images/cv.pdf" target="_blank">Mon CV</a></li>
 						</ul>
 					</div>
