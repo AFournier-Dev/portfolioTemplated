@@ -51,7 +51,7 @@
 					<h2 class="major">Compétences</h2>
 					<h3>Hard Skills</h3>
 					<p>HTML / CSS / JS / PHP / UML / MYSQL / ADOBE XD / FIGMA / ILLUSTRATOR / PHOTOSHOP / WORDPRESS/ GIT
-						/ SYNPHONY / LIQUID / SHOPIFY</p>
+						/ Bit BUCKET / SYNPHONY / LIQUID / SHOPIFY</p>
 					<h3>Soft Skills</h3>
 					<p> Créativité, Vente, Négociation, Observateur, Orgnisation de veille, Innovation, Apprendre à
 						apprendre, #thinkOutOfTheBox</p>
