@@ -51,7 +51,7 @@
 					<h2 class="major">Compétences</h2>
 					<h3>Hard Skills</h3>
 					<p>HTML / CSS / JS / PHP / UML / MYSQL / ADOBE XD / FIGMA / ILLUSTRATOR / PHOTOSHOP / WORDPRESS/ GIT
-						/ SYNPHONY</p>
+						/ SYNPHONY / LIQUID / SHOPIFY</p>
 					<h3>Soft Skills</h3>
 					<p> Créativité, Vente, Négociation, Observateur, Orgnisation de veille, Innovation, Apprendre à
 						apprendre, #thinkOutOfTheBox</p>
@@ -131,9 +131,8 @@
 								$email = htmlspecialchars($_POST['mail']);
 								$headers[] = $_POST['name'] . '<' . $_POST['email'] . '>';
 								$message = htmlspecialchars(($_POST['message']));
-							
+
 								mail('alexandre.fournier@yahoo.fr', 'Contact portfolio', $message,  implode("\r\n", $headers));
-								
 							}
 							?>
 						</div>
@@ -150,7 +149,7 @@
 				</div>
 			</section>
 
-	
+
 		</div>
 	</div>
 
