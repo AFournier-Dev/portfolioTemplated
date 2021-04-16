@@ -90,7 +90,7 @@
 					<p>Un jeux à la "bomberman" en mode Halloween. Une citrouille contre des chauffes-souris. Attention les bonbons sont explosif.</p>
 					<a href="images/snippetShopify.jpg" target="_blank"><span class="fas fa-shopping-cart fa-2x"></a>
 					<p>Pour shopify : Snippet, template, themes ... ici un exemple de snippet fonctionnant dans shopify</p>
-					<a href="https://https://metehome.promo-45.codeur.online/"><span class="fas fa-cloud-sun-rain fa-2x"></a>
+					<a href="https://metehome.promo-45.codeur.online/"><span class="fas fa-cloud-sun-rain fa-2x"></a>
 					<p>Application permettant de donner la météo [Symphone, Vue.js, API]</p>
 					<i></i>
 				</div>
