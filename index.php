@@ -88,8 +88,8 @@
 					<p>Besoin de réviser vos tables de multiplication ? Votre enfant en a marre de réciter ? Plusieurs méthodes pour réviser</p>
 					<a href="https://alexandref544.promo-45.codeur.online/Bomberman/"><span class="fas fa-gamepad fa-2x"></a>
 					<p>Un jeux à la "bomberman" en mode Halloween. Une citrouille contre des chauffes-souris. Attention les bonbons sont explosif.</p>
-					<a href="images/snippetShopify.jpg" target="_blank"><span class="fas fa-shopping-cart fa-2x"></a>
-					<p>Pour shopify : Snippet, template, themes ... ici un exemple de snippet fonctionnant dans shopify</p>
+					<!--	<a href="images/snippetShopify.jpg" target="_blank"><span class="fas fa-shopping-cart fa-2x"></a>
+					<p>Pour shopify : Snippet, template, themes ... ici un exemple de snippet fonctionnant dans shopify</p> -->
 					<a href="https://metehome.promo-45.codeur.online/"><span class="fas fa-cloud-sun-rain fa-2x"></a>
 					<p>Application permettant de donner la météo [Symphone, Vue.js, API]</p>
 					<i></i>
